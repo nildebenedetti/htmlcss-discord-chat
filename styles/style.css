@@ -49,6 +49,10 @@ body {
 
 /* Elementi della sidebar */
 
+.sidebar-channels {
+    flex-direction: column;
+}
+
 li.channel {
     display:block;
 }
