@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Discord Mobile</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Vend+Sans:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+
+
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
@@ -44,7 +49,15 @@
             <!-- all'interno del main aggiungo il terzo livello di layout, 
                 dando al main d-flex e inserendo al suo interno header e
                  chat-list-->
-          <div class="header-messaggi">Messaggiii</div>
+          <div class="header-messaggi">
+
+            <!-- dentro l'header, creo un h2 e i pulsanti per search e add-->
+            <h2 class="header-h2">Messaggi</h2>
+            <div class="header-buttons">
+                <div class="search-icon"></div>
+                <button class="add-friends"></button>
+            </div>
+          </div>
           <div class="chat-list">
             Giuseppe <br />
             Fra <br />
