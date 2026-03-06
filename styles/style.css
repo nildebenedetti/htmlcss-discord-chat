@@ -10,4 +10,41 @@
 
 body {
     width: 512 px;
+    height: 100vh;
 }
+
+/* Utilities */
+
+.d-flex {
+    display:flex;
+}
+
+/* Livello 1: separazione footer */
+
+.app-wrapper {
+    background-color:yellowgreen;
+    flex-direction: column;
+    height: 100vh;
+    
+}
+
+.central-wrapper {
+     background-color: aquamarine;
+    flex-direction: column;
+    flex-basis: 80%;
+}
+
+.footer {
+    background-color: aquamarine;
+    flex-basis: 20%;
+}
+
+/*
+
+
+
+.sidebar {
+    background-color: red;
+    flex-basis: 20%;
+    
+} */
