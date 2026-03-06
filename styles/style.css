@@ -52,14 +52,17 @@ body {
 .main {
     flex-direction: column;
     flex-grow:1;
+    background-color: #1C1D22;
 }
 
 .header-messaggi {
-    background-color: blueviolet;
+    background-color: #1C1D22;
     flex-basis:10%;
+    border: 1px solid white;
 }
 
 .chat-list {
-    background-color: brown;
+    background-color: #1C1D22;
     flex-grow:1;
+    border: 1px solid white;
 }
