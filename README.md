@@ -1,0 +1,3 @@
+# Discord Mobile #
+
+Simulazione layout 
