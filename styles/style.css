@@ -11,6 +11,7 @@
 body {
     width: 512 px;
     height: 100vh;
+    background-color: #141317;
 }
 
 /* Utilities */
@@ -23,20 +24,19 @@ body {
 
 .app-wrapper {
     flex-direction: column;
-    height: 100vh;
+    height: 100%;
     
 }
 
 .central-wrapper {
-    background-color: aquamarine;
     flex-direction: row;
     flex-basis: 90%;
+    height: calc(100vh-10%);
 }
 
 .footer {
     background-color: rgb(255, 127, 251);
-    height:0;
-    flex-grow: 1;
+    flex-basis: 10%;
 }
 
 /* Livello 2: sidebar + main */
@@ -44,7 +44,6 @@ body {
 .sidebar {
     background-color: red;
     flex-basis: 20%;
-    
 } 
 
 /* Elementi della sidebar */
@@ -79,16 +78,20 @@ img.round {
     flex-direction: column;
     flex-grow:1;
     background-color: #1C1D22;
+    margin-top:10px;
 }
 
 .header-messaggi {
     background-color: #1C1D22;
     flex-basis:10%;
     border: 1px solid white;
+    border-top-left-radius: 15px;
+    color: white;
 }
 
 .chat-list {
     background-color: #1C1D22;
     flex-grow:1;
     border: 1px solid white;
+    color: white;
 }
