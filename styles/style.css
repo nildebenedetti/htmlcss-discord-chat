@@ -30,7 +30,7 @@ body {
 .central-wrapper {
     background-color: aquamarine;
     flex-direction: row;
-    flex-basis: 85%;
+    flex-basis: 90%;
 }
 
 .footer {
@@ -46,3 +46,20 @@ body {
     flex-basis: 20%;
     
 } 
+
+/* Livello 3  Header della sezione messaggi */
+
+.main {
+    flex-direction: column;
+    flex-grow:1;
+}
+
+.header-messaggi {
+    background-color: blueviolet;
+    flex-basis:10%;
+}
+
+.chat-list {
+    background-color: brown;
+    flex-grow:1;
+}
