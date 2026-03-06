@@ -22,29 +22,27 @@ body {
 /* Livello 1: separazione footer */
 
 .app-wrapper {
-    background-color:yellowgreen;
     flex-direction: column;
     height: 100vh;
     
 }
 
 .central-wrapper {
-     background-color: aquamarine;
-    flex-direction: column;
-    flex-basis: 80%;
+    background-color: aquamarine;
+    flex-direction: row;
+    flex-basis: 85%;
 }
 
 .footer {
-    background-color: aquamarine;
-    flex-basis: 20%;
+    background-color: rgb(255, 127, 251);
+    height:0;
+    flex-grow: 1;
 }
 
-/*
-
-
+/* Livello 2: sidebar + main */
 
 .sidebar {
     background-color: red;
     flex-basis: 20%;
     
-} */
+} 
