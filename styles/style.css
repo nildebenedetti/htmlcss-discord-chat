@@ -62,6 +62,7 @@ li.channel {
 
 li img {
     height:60px;
+    border-radius: 50%
 }
 
 /* Livello 3  Header della sezione messaggi */
