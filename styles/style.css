@@ -47,6 +47,16 @@ body {
     
 } 
 
+/* Elementi della sidebar */
+
+li.channel {
+    display:block;
+}
+
+li img {
+    height:60px;
+}
+
 /* Livello 3  Header della sezione messaggi */
 
 .main {

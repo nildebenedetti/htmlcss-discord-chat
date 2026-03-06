@@ -8,20 +8,52 @@
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
+
+    <!-- imposto layout di primo livello con app-wrapper d-flex, al cui interno posiziono al suo interno
+        central wrapper + footer -->
     <div class="app-wrapper d-flex">
       <div class="central-wrapper d-flex">
+
+        <!-- imposto il secondo livello di layout mettendo a central wrapper d-flex, ed al suo interno 
+            sidebar + main -->
         <div class="sidebar">
-            <ul class="sidebar-channels">
-                <li class="channel c-discord"></li>
+            <ul class="sidebar-channels d-flex">
+                <li class="channel c-discord">
+                    <img src="img/logo.webp" alt="logo boolean" class="discord-icon">
+                </li>
+                <li class="channel c-discord">
+                    <img src="img/logo.webp" alt="logo boolean" class="discord-icon">
+                </li>
+                <li class="channel c-discord">
+                    <img src="img/logo.webp" alt="logo boolean" class="discord-icon">
+                </li>
+                <li class="channel c-discord">
+                    <img src="img/logo.webp" alt="logo boolean" class="discord-icon">
+                </li>
+                <li class="channel c-discord">
+                    <img src="img/logo.webp" alt="logo boolean" class="discord-icon">
+                </li>
+                <li class="channel c-discord">
+                    <img src="img/logo.webp" alt="logo boolean" class="discord-icon">
+                </li>
+
+                <!-- intanto metto da parte i miei bellissimi li 
+                 e testo il comportamnto di ul per flex       
+                 ------------------------------------------------
+
                 <li class="channel c-brain"></li>
                 <li class="channel c-boolean"></li>
                 <li class="channel c-ita"></li>
                 <li class="channel c-switch"></li>
                 <li class="channel c-js"></li>
-                <li class="channel c-pkmn"></li>
+                <li class="channel c-pkmn"></li> -->
+
             </ul> 
         </div>
         <main class="main d-flex">
+            <!-- all'interno del main aggiungo il terzo livello di layout, 
+                dando al main d-flex e inserendo al suo interno header e
+                 chat-list-->
           <div class="header-messaggi">Messaggiii</div>
           <div class="chat-list">
             Giuseppe <br />
